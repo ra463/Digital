@@ -3,7 +3,7 @@
 **Clone This Repo**
 
 ```
-git clone https://github.com/ra463/Aeonaxy.git
+git clone https://github.com/ra463/Digital.git
 ```
 
 _Create a file named `config.env` in the `config` folder and add the following env variable_
@@ -30,7 +30,7 @@ There are 2 types of Routes:
 
 ### User API's Endpoint :
 
-B_URL = https://localhost:4000/api/user
+B_URL = http://localhost:4000/api/user
 
 - Register - B_URL/register (Register User) `POST`
 - Login - B_URL/login (Login User) `POST`
@@ -40,7 +40,7 @@ B_URL = https://localhost:4000/api/user
 
 ### Book API's Endpoint :
 
-B_URL = https://localhost:4000/api/book
+B_URL = http://localhost:4000/api/book
 
 - Add Book - B_URL/add-book (Admin can add Book) `POST`
 - Update Book - B_URL/update-book (Update Book Detals) `POST`
